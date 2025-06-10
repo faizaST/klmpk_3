@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'login_page.dart';
 
 class RegistrasiPage extends StatefulWidget {
   const RegistrasiPage({super.key});
@@ -170,10 +170,10 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
                   Text('Sudah punya akun? '),
                   GestureDetector(
                     onTap: () {
-                      //Navigator.push(
-                        //context,
-                        //MaterialPageRoute(builder: (context) => LoginPage()),
-                      //);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => LoginPage()),
+                      );
                     },
                     child: Text(
                       'Login',
