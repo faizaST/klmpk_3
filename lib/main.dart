@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:klmpk_3/screens/admin/pemesanan_full_page.dart';
 import 'package:klmpk_3/screens/admin/pengguna_page.dart';
 import 'screens/admin/admin_home_page.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PenggunaPage(),
+      home: PemesananFullPage(),
     );
   }
 }
