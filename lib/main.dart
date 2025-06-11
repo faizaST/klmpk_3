@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:klmpk_3/screens/user/riwayat_page.dart';
 import 'screens/auth/login_page.dart';
 import 'screens/auth/registrasi_page.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: RegistrasiPage()
+      home: RiwayatPage()
     );
   }
 }
