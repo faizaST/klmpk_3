@@ -3,6 +3,7 @@ import 'package:klmpk_3/screens/user/riwayat_page.dart';
 import 'screens/auth/login_page.dart';
 import 'screens/auth/registrasi_page.dart';
 import 'screens/splash/splashscreen_page.dart';
+import 'screens/user/user_home_page.dart';
 
 void main() {
   runApp(const MyApp());
