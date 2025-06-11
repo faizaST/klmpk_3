@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:klmpk_3/screens/profile/profil_page.dart';
+import 'package:klmpk_3/screens/user/profil_page.dart';
 import 'screens/splash/splashscreen_page.dart';
 
 void main() {
